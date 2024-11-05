@@ -1,9 +1,6 @@
 import types
-
 import torch
 from torch import nn
-
-
 
 class _LowerBoundFunction(torch.autograd.Function):
     # Implements LowerBound with identity_if_towards
