@@ -2,9 +2,7 @@ import torch
 import types
 from torch import Tensor
 
-
 SYM_RANGE = 2
-
 
 class _QTensor(object):
     def __init__(self, t: Tensor, L):
@@ -20,7 +18,6 @@ class _QTensor(object):
 
     def assert_shape(self, target_shape):
         assert self.t.shape == target_shape, f'{self.t.shape} != {target_shape}'
-
 
 class NormalizedTensor(_QTensor):
     def __init__(self, t: Tensor, L, centered: bool = False, sym: 'SymbolTensor' = None):
