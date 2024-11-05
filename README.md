@@ -5,7 +5,7 @@
 
 ---
 
-This repository contains code and resources related to **ByteZip**, a deep learning-based approach for efficient lossless compression of structured byte streams. ByteZip leverages advanced machine learning models, including autoencoders and mixture density networks, to achieve high compression ratios while preserving data integrity. This work was presented at the **2024 International Joint Conference on Neural Networks (IJCNN)**.
+This repository contains code and resources related to **ByteZip**, a deep learning-based approach for efficient lossless compression of structured byte streams. ByteZip leverages advanced machine learning model, including autoencoders and mixture density networks, to compress bytestreams losslessly. In contrast to other deep learning based lossless compressors, our approach follows a hierarchical probablistic approach and reduces the overhead of sequential processing. This work was presented at the **2024 International Joint Conference on Neural Networks (IJCNN)**.
 
 ## Citation
 
