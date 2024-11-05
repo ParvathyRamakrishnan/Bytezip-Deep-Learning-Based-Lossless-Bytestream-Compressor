@@ -14,7 +14,6 @@ l=2**5
 ###################
 ### FULL MODEL#####
 ###################
-
 # Define the residual block with GDN
 class ResidualBlock(nn.Module):
     def __init__(self, in_channels, out_channels):
