@@ -18,12 +18,12 @@ Python 3.6+
 Libraries: PyTorch 1.1, numpy, torchac, scikit-learn
 
 ## Instructions
-# Neural Network Model
+### Neural Network Model
 Define model and network parameters accodrding to data in multiscalemodel.py
-# Training: 
+### Training: 
 Copy train dataset in data folder and train model using Training_mutiscalemodel.py
 Save the trained model
-# Evaluation
+### Evaluation
 To test lossless compression and decompression using trained model use script Compress_multiscalemodel.py
 
 
