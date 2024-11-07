@@ -18,7 +18,7 @@ Python 3.6+
 Libraries: PyTorch 1.1, numpy, torchac, scikit-learn
 
 ## Instructions
-Sorce code is available in folder src. 
+Source code is available in folder src. 
 
 Copy the train and test data into data folder.
 #### Neural Network Model
