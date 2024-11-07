@@ -18,8 +18,11 @@ Python 3.6+
 Libraries: PyTorch 1.1, numpy, torchac, scikit-learn
 
 ## Instructions
+Sorce code is available in folder src. 
+
+Copy the train and test data into data folder.
 #### Neural Network Model
-Define model and network parameters accodrding to data in script multiscalemodel.py
+Define model and network parameters according to data in script multiscalemodel.py
 #### Training: 
 Copy train dataset in data folder and train model using script Training_mutiscalemodel.py
 
