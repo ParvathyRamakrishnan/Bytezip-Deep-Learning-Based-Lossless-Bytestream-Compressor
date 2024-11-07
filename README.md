@@ -13,5 +13,18 @@ If you use ByteZip in your research or development, please cite our paper:
 
 > **P. R. P and S. Das**, "ByteZip: Efficient Lossless Compression for Structured Byte Streams Using DNNs," *2024 International Joint Conference on Neural Networks (IJCNN)*, Yokohama, Japan, 2024, pp. 1-8, doi: [10.1109/IJCNN60899.2024.10650523](https://doi.org/10.1109/IJCNN60899.2024.10650523).
 
+## Requirements
+Python 3.6+
+Libraries: PyTorch 1.1, numpy, torchac, scikit-learn
+
+## Instructions
+# Neural Network Model
+Define model and network parameters accodrding to data in multiscalemodel.py
+# Training: 
+Copy train dataset in data folder and train model using Training_mutiscalemodel.py
+Save the trained model
+# Evaluation
+To test lossless compression and decompression using trained model use script Compress_multiscalemodel.py
+
 
 
